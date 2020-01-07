@@ -23,11 +23,4 @@ public class WelcomeController {
         return mav;
     }
 
-//    @ResponseBody
-//    @GetMapping(value = "/welcome.json")
-//    public Model getWelcomeJson(Model dto){
-//        dto.addObject("name", "circlee");
-//        return dto;
-//    }
-
 }
